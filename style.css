@@ -1,62 +1,298 @@
-header{
-    background-color: deepskyblue;
+* {
+  margin: 0;
+  padding: 0;
 }
-.container1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 40px;
+header {
+  background-color: cyan;
 }
-h1{
-    font-family: sans-serif;
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
 }
-.nav{
-    word-spacing: 10px;
+.container2 {
+  background-color:rgb(234, 171, 234);
 }
-a{
-    color: crimson;
-    text-decoration: none;
-    font-family: sans-serif;
-    
+h1 {
+  font-family: sans-serif;
 }
-.btn1{
-    background-color: white;
-    border-radius: 5px;
-    padding: 5px 20px;
+.nav {
+  word-spacing: 10px;
 }
-.container2{
-    background-color: rgb(203, 192, 192);
+a {
+  color: crimson;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.btn1 {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+.sub-container2 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  width: 900px;
+  /* background-color: blueviolet; */
+  margin: auto;
+}
+.container2 h2 {
+  text-align: center;
+  padding: 20px;
+}
+.box1 {
+  border: solid magenta;
+  width: 400px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  /* justify-content: center; */
+  /* margin-right: 10px; */
+  /* padding: 10px 100px;
+   */
+}
+.item1 {
+  background-color: aqua;
+  border: 2px solid darkgreen;
+  width: 50px;
+  margin: 2px;
+  padding: 30px 20px;
+  text-align: center;
+}
+.item2 {
+  background-color: aqua;
+  border: 2px solid darkgreen;
+  width: 50px;
+  margin: 2px;
+  padding: 30px 20px;
+  text-align: center;
+}
+.item3 {
+  background-color: orange;
+  border: 2px solid red;
+  width: 50px;
+  margin: 2px;
+  padding: 30px 20px;
+  text-align: center;
+}
+.container3 {
+  /* background-color: lightsalmon; */
+  justify-content: center;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  /* border: 10px solid black; */
+}
+.container3 h2 {
+  text-align: center;
+  padding: 20px;
+}
+.sub-container3 {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    width: 1000px;
+    /* background-color: blueviolet; */
+    margin: auto;
+    gap: 10px;
 }
-.container2 h2{
-    text-align: left;
-    padding: 20px;
-}
-.box1{
+.box2 {
     border: solid magenta;
+    width: 300px;
     margin-right: 10px;
-    padding: 10px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
 }
-.item1{
+.item4 {
+  background-color: aqua;
+  border: 2px solid darkgreen;
+  width: 50px;
+  margin: 2px;
+  padding: 30px 20px;
+  text-align: center;
+}
+.item5 {
+  background-color: aqua;
+  border: 2px solid darkgreen;
+  width: 50px;
+  margin: 2px;
+  padding: 30px 20px;
+  text-align: center;
+}
+.item6 {
+  background-color: orange;
+  border: 2px solid red;
+  width: 50px;
+  margin: 2px;
+  padding: 30px 20px;
+  text-align: center;
+}
+/* <!--------------third section-------------> */
+.container4-head {
+  text-align: center;
+  padding: 20px;
+}
+
+.container4 {
+  background-color:rgb(234, 171, 234);
+  /* justify-content: center; */
+  padding-bottom: 100px;
+  padding-top: 50px;
+  /* border: 10px solid black; */
+  clear: both;
+  /* margin-bottom: 50px; */
+}
+.sub-container4 {
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+
+.box3 {
+  display: flex;
+  flex-wrap: nowrap;
+
+  flex-direction: column;
+}
+
+.box3 > div {
+  background-color: red;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .columns{
+    clear: both;
+    display: flex;
+    display: block;
+  } */
+.box3 {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3 > div {
+  background-color: aqua;
+  border: 2px solid darkgreen;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/*--------------fourth section------------------*/
+.container5 {
+  /* clear: both; */
+  /* display: block; */
+  display: flex;
+  /* margin-top: 50px; */
+  /* background-color: darkviolet; */
+  /* border: 10px solid black; */
+}
+
+.sub-container5 > div {
+  display: flex;
+  background-color: aqua;
+  width: 50px;
+  margin: 2px;
+  text-align: center;
+  /* font-size: 30px; */
+  background-color: aqua;
+  border: 2px solid darkgreen;
+  padding: 30px 30px;
+  text-align: center;
+}
+
+.sub-container5 {
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: rgb(96, 246, 54); */
+  margin: auto;
+  justify-content: center;
+  padding: 50px;
+}
+/* -------------------------------------fifth section-------------------------------------- */
+.container6{
+    background-color:rgb(234, 171, 234);
+    /* border: 10px solid black; */ 
+}
+.sub-container6{
+    width: 900px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 50px 0px;
+}
+.sub-container6>div{
+  background-color: aqua;
+  width: 50px;
+  margin: 2px;
+  text-align: center;
+  /* font-size: 30px; */
+  background-color: aqua;
+  border: 2px solid darkgreen;
+  padding: 30px 30px;
+}
+.grow{
+    flex-grow: 1;
+}
+/* ------------------------------------sixth section----------------------------------------- */
+.container7{
+    /* background-color:plum;
+    border: 10px solid black; */
+}
+.sub-container7{
+    width: 900px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 50px 0px;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    gap: 70px;
+
+
+}
+.sub-container7>div{
+    background-color: aqua;
+    width: 50px;
+    margin: 2px;
+    text-align: center;
+    /* font-size: 30px; */
     background-color: aqua;
     border: 2px solid darkgreen;
-    margin: 10px;
-    padding: 30px 10px;
+    padding: 30px 30px;
     text-align: center;
-}
-.item2{
-    background-color: aqua;
-    border: 2px solid darkgreen;
-    margin: 10px;
-    padding: 30px 10px;
-    text-align: center;
-}
-.item3{
-    background-color: orange;
-    border: 2px solid red;
-    margin: 10px;
-    padding: 30px 10px;
-    text-align: center;
-}
+  }
+  /* ------------------------footer part-------------- */
+  footer{
+      background-color: cyan;
+      color: white;
+      font-size: 30px;
+      text-align: center;
+      word-spacing: 40px;
+      padding: 10px 0px;
+  }
+  #hero1{
+      float: left;
+      clear: both;
+  }
+
